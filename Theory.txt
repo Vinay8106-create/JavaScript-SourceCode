@@ -1,0 +1,8 @@
+What is JavaScript ? : It is a programming language used to give instrctions to the computer
+Input (code) ---> computer ---> Output
+code -> JavaScript : we can write JavaScript code in many platforms, but best platform is chrome browser
+
+-> Html has direct connection with browser, that's why we have to link JS code to html to print js code on browser's console
+js -> html -> browser (indirect connection)
+
+-> js is a dynamically typed language : we dont have to mention previously like, what kind of data we are going to store in a variable
