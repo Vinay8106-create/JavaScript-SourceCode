@@ -1,0 +1,19 @@
+/* #header {
+  color: blue;
+  text-decoration: line-through;
+} */
+
+.myClass {
+  color: blue;
+  text-decoration: line-through;
+}
+
+body {
+  background-color: pink;
+}
+
+button {
+  background-color: blue;
+  color: white;
+}
+

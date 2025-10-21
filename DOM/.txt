@@ -1,0 +1,39 @@
+The 3 musketeers of front-end web development are :
+1- HTML(Structure), 2- CSS(style), 3- JS(logic)
+
+Starter Code:
+<style> tag connects HTML with CSS
+<Script> tag connects HTML with JS
+
+Window Object: the window object represents an open window in a browser.it is browser's object(not javaScript's) & is automatically created by browser.
+-> it is a global object with lots of properties and methods.
+-> each and every method, instruction we write in js are part of window Object (window objecet is global)
+
+DOM ?    D : Document (object inside window object), basically it is a model/representation of our html code, and it is called as DOM (Document Object Model)
+Def : the process of accessing html inside the js is known as DOM
+- When a wep page is loaded, the browser creates a Document Object Model (DOM) of the page
+                                            window  --> every individual box is known as Node
+                                              |
+                                            Document
+                                              |
+                                             HTML
+                                              |
+                                    ---------------------  
+                                   |                      |
+                                  head                  body
+                                    |                     |
+                 ---------------------------       ------------------
+                meta     meta   title   link        div           script
+                                                    |
+                                              ----------------
+                                              img  h1  p  div
+
+-> we can access all the html code from our js
+-> all the html code will come and settle in js in the form of Object, and that object is known as document and document is available in window object
+-> all the html code is present in document object, which is sub object (sub part) of the window object
+
+console.log() : used to print on the screen
+console.dir() : used to print properties and methods of special objects like document
+- whenever we have to print objects we use console.dir() not console.log()
+
+why use DOM ? : to make dynamic changes/manipulation when user pressed button or form submission etc in our web page
